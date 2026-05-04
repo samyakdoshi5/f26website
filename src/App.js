@@ -1,0 +1,91 @@
+// src/App.js
+import React from "react";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Flagships from "./pages/Flagships";
+import Gallery from "./pages/Gallery";
+import ContactUs from "./pages/ContactUs";
+import SponsorUs from "./pages/SponsorUs";
+import Preloader from "./components/Preloader";
+
+import { useEffect } from "react";
+// We keep HERO_DATA for text properties; backgroundImage may be external (Vimeo).
+import { HERO_DATA, SPONSORS_LOGOS, TEAM_INFO } from "./data";
+
+const PUBLIC = process.env.PUBLIC_URL || "";
+
+/* ScrollToTop stays the same */
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+};
+
+
+function assetsForPath(pathname) {
+  // normalize trailing slash
+  const p = pathname.replace(/\/+$/, "") || "/";
+
+  switch (p) {
+    case "/":
+      return [
+        TEAM_INFO.logo,
+        TEAM_INFO.smalllogo,
+        HERO_DATA.posterImage,
+        ...SPONSORS_LOGOS.map((s) => s.logoUrl),
+      ];
+    case "/flagships":
+      return [
+      ];
+    case "/gallery":
+      return [
+      ];
+    case "/contact":
+    case "/contact/":
+      return [`${PUBLIC}/images/contact/map-hero.jpg`];
+    default:
+      return [];
+  }
+}
+
+/**
+ * AppWithPreloader wraps the Router UI and passes assets based on the current location.
+ */
+function AppWrapper() {
+  const location = useLocation();
+  const assets = assetsForPath(location.pathname);
+
+  return (
+    <Preloader assets={assets} timeoutMs={10000} showProgress>
+      <div className="flex flex-col min-h-screen font-sans antialiased selection:bg-tech-accent selection:text-white">
+        <Header />
+        <main className="flex-grow">
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/flagships" element={<Flagships />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/sponsor-us" element={<SponsorUs />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Preloader>
+  );
+}
+
+function App() {
+  // DON'T set basename for HashRouter. HashRouter handles routing using the fragment (#).
+  return (
+    <Router>
+      <ScrollToTop />
+      <AppWrapper />
+    </Router>
+  );
+}
+
+export default App;
