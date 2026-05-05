@@ -30,7 +30,7 @@ Vellore, Tamil Nadu, India
 export const HERO_DATA = {
   backgroundImage: "https://vimeo.com/embed/1138938605",
   posterImage: `${PUBLIC}/images/Hero-Image.jpg`,
-  titleStart: "PUSHING THE LIMITS OF",
+  titleStart: "PooSHING THE LIMITS OF",
   titleHighlight: "FLIGHT",
   subtitle: "Designing, building, and flying the next generation of UAVs.",
   brochureLink: `${PUBLIC}/AssailingFalcons25-Brochure.pdf`,
