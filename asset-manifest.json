@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/f26-website/static/css/main.08756ef7.css",
+    "main.js": "/f26-website/static/js/main.9016bab6.js",
+    "index.html": "/f26-website/index.html",
+    "main.08756ef7.css.map": "/f26-website/static/css/main.08756ef7.css.map",
+    "main.9016bab6.js.map": "/f26-website/static/js/main.9016bab6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08756ef7.css",
+    "static/js/main.9016bab6.js"
+  ]
+}
