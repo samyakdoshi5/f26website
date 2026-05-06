@@ -157,7 +157,7 @@ const PhotoViewer = ({ photos = [], initialIndex = 0, onClose, sizes = '100vw' }
     >
       <button
         onClick={(e) => { e.stopPropagation(); onClose?.(); }}
-        className="absolute top-6 right-6 text-white hover:text-red-500"
+        className="absolute top-6 right-6 text-white hover:text-tech-accent"
         aria-label="Close"
         style={{ zIndex: 60 }}
       >

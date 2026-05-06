@@ -109,7 +109,7 @@ const Flagships = () => {
                 className="p-6 border-b border-slate-700 flex justify-between items-center relative overflow-hidden"
                 style={{
                   background:
-                    "linear-gradient(90deg, rgba(0,0,0,0.65) 0%, rgba(18,6,8,0.5) 40%, rgba(220,22,49,0.12) 100%)",
+                    "linear-gradient(90deg, rgb(var(--color-tech-900) / 0.78) 0%, rgb(var(--color-brand-mid-dark) / 0.52) 42%, rgb(var(--color-tech-accent) / 0.14) 100%)",
                 }}
               >
                 <div className="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-tech-gold blur-[110px] opacity-30 pointer-events-none"></div>
@@ -121,7 +121,7 @@ const Flagships = () => {
 
                 <button
                   onClick={() => setSelectedCraft(null)}
-                  className="relative hover:bg-red-600 text-white p-2 rounded focus:outline-none focus:ring-4 focus:ring-tech-gold/40 z-10"
+                  className="relative hover:bg-tech-accent/80 text-white p-2 rounded focus:outline-none focus:ring-4 focus:ring-tech-gold/40 z-10"
                   aria-label="Close"
                 >
                   <X size={20} />
@@ -218,7 +218,7 @@ const Flagships = () => {
                               )}
 
                               <div className="absolute inset-0 pointer-events-none rounded-lg opacity-0 group-hover:opacity-100 transition">
-                                <div className="absolute inset-0 border-2 rounded-lg border-tech-gold/30 shadow-[0_8px_30px_-10px_rgba(220,22,49,0.22)]" />
+                                <div className="absolute inset-0 border-2 rounded-lg border-tech-gold/30 shadow-lg shadow-tech-accent/20" />
                               </div>
                             </motion.button>
                           );

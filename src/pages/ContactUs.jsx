@@ -161,7 +161,7 @@ const ContactUs = () => {
               type="submit"
               whileHover={{ scale: 1.02 }} // Framer Motion hover effect
               whileTap={{ scale: 0.98 }} // Framer Motion tap/click effect
-              className="w-full bg-tech-gold hover:bg-tech-gold/80 text-black font-bold py-3 px-6 rounded-lg flex items-center justify-center transition transform shadow-[0_8px_25px_-6px_rgba(220,22,49,0.35)]"
+              className="w-full bg-tech-gold hover:bg-tech-gold/80 text-black font-bold py-3 px-6 rounded-lg flex items-center justify-center transition transform shadow-lg shadow-tech-accent/30"
             >
               <Send size={18} className="mr-2" /> Send Message
             </motion.button>

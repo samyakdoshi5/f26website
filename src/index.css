@@ -2,11 +2,101 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+:root {
+  color-scheme: dark;
+  --color-tech-900: 3 9 15;
+  --color-tech-800: 8 18 28;
+  --color-tech-accent: 0 194 203;
+  --color-tech-glow: 249 181 64;
+  --color-tech-gold: 249 181 64;
+  --color-brand-highlight: 238 252 255;
+  --color-brand-mid-light: 33 105 116;
+  --color-brand-mid-dark: 10 42 51;
+  --color-brand-deep: 3 9 15;
+  --gradient-site: linear-gradient(135deg, #03090f 0%, #061f2a 32%, rgba(0, 194, 203, 0.34) 62%, #0d1117 100%);
+  --gradient-section: linear-gradient(180deg, rgba(0, 194, 203, 0.08) 0%, rgba(249, 181, 64, 0.06) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(0, 194, 203, 0.16) 0%, rgba(249, 181, 64, 0.08) 68%);
+  --global-background-color: #03090f;
+  --scrollbar-track: #050d14;
+  --scrollbar-thumb: #216974;
+}
+
+[data-theme="afterburner"] {
+  --color-tech-900: 0 0 0;
+  --color-tech-800: 9 9 9;
+  --color-tech-accent: 220 22 49;
+  --color-tech-glow: 255 45 80;
+  --color-tech-gold: 255 193 89;
+  --color-brand-highlight: 255 255 255;
+  --color-brand-mid-light: 122 20 36;
+  --color-brand-mid-dark: 59 15 20;
+  --color-brand-deep: 8 8 8;
+  --gradient-site: linear-gradient(135deg, #000000 0%, #12050a 28%, rgba(220, 22, 49, 0.52) 55%, #000000 100%);
+  --gradient-section: linear-gradient(180deg, rgba(220, 22, 49, 0.08) 0%, rgba(255, 193, 89, 0.06) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(220, 22, 49, 0.16) 0%, rgba(255, 193, 89, 0.07) 62%);
   --global-background-color: #000000;
-  background: radial-gradient(circle at top right, rgba(220,22,49,0.16), transparent 18%),
-              radial-gradient(circle at bottom left, rgba(255,255,255,0.06), transparent 20%),
-              #000000;
+  --scrollbar-track: #050505;
+  --scrollbar-thumb: #7a1424;
+}
+
+[data-theme="wind-tunnel"] {
+  --color-tech-900: 3 9 15;
+  --color-tech-800: 8 18 28;
+  --color-tech-accent: 0 194 203;
+  --color-tech-glow: 249 181 64;
+  --color-tech-gold: 249 181 64;
+  --color-brand-highlight: 238 252 255;
+  --color-brand-mid-light: 33 105 116;
+  --color-brand-mid-dark: 10 42 51;
+  --color-brand-deep: 3 9 15;
+  --gradient-site: linear-gradient(135deg, #03090f 0%, #061f2a 32%, rgba(0, 194, 203, 0.34) 62%, #0d1117 100%);
+  --gradient-section: linear-gradient(180deg, rgba(0, 194, 203, 0.08) 0%, rgba(249, 181, 64, 0.06) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(0, 194, 203, 0.16) 0%, rgba(249, 181, 64, 0.08) 68%);
+  --global-background-color: #03090f;
+  --scrollbar-track: #050d14;
+  --scrollbar-thumb: #216974;
+}
+
+[data-theme="carbon-sky"] {
+  --color-tech-900: 5 8 13;
+  --color-tech-800: 13 18 26;
+  --color-tech-accent: 71 148 255;
+  --color-tech-glow: 160 221 110;
+  --color-tech-gold: 160 221 110;
+  --color-brand-highlight: 241 247 255;
+  --color-brand-mid-light: 42 83 145;
+  --color-brand-mid-dark: 16 35 66;
+  --color-brand-deep: 5 8 13;
+  --gradient-site: linear-gradient(135deg, #05080d 0%, #0d1626 36%, rgba(71, 148, 255, 0.28) 68%, #090d12 100%);
+  --gradient-section: linear-gradient(180deg, rgba(71, 148, 255, 0.08) 0%, rgba(160, 221, 110, 0.06) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(71, 148, 255, 0.15) 0%, rgba(160, 221, 110, 0.07) 72%);
+  --global-background-color: #05080d;
+  --scrollbar-track: #070b11;
+  --scrollbar-thumb: #2a5391;
+}
+
+[data-theme="runway-dawn"] {
+  --color-tech-900: 8 12 18;
+  --color-tech-800: 17 24 34;
+  --color-tech-accent: 226 104 46;
+  --color-tech-glow: 116 198 172;
+  --color-tech-gold: 116 198 172;
+  --color-brand-highlight: 245 248 250;
+  --color-brand-mid-light: 116 198 172;
+  --color-brand-mid-dark: 43 54 69;
+  --color-brand-deep: 8 12 18;
+  --gradient-site: linear-gradient(135deg, #080c12 0%, #15202d 35%, rgba(226, 104, 46, 0.26) 64%, #0c121a 100%);
+  --gradient-section: linear-gradient(180deg, rgba(226, 104, 46, 0.08) 0%, rgba(116, 198, 172, 0.06) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(226, 104, 46, 0.14) 0%, rgba(116, 198, 172, 0.08) 70%);
+  --global-background-color: #080c12;
+  --scrollbar-track: #0b1017;
+  --scrollbar-thumb: #744735;
+}
+
+body {
+  background: radial-gradient(circle at top right, rgb(var(--color-tech-accent) / 0.16), transparent 18%),
+              radial-gradient(circle at bottom left, rgb(var(--color-tech-glow) / 0.08), transparent 20%),
+              var(--global-background-color);
   color: #f8fafc;
   overflow-x: hidden;
 }
@@ -15,14 +105,14 @@ body {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #050505;
+  background: var(--scrollbar-track);
 }
 ::-webkit-scrollbar-thumb {
-  background: #6f1527;
+  background: var(--scrollbar-thumb);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #dc1631;
+  background: rgb(var(--color-tech-accent));
 }
 
 .hide-scrollbar::-webkit-scrollbar {

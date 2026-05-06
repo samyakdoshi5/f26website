@@ -7,26 +7,26 @@ module.exports = {
     extend: {
       colors: {
         tech: {
-          900: '#000000',
-          800: '#090909',
-          accent: '#dc1631',
-          glow: '#ff2d50',
-          gold: '#dc1631',
+          900: 'rgb(var(--color-tech-900) / <alpha-value>)',
+          800: 'rgb(var(--color-tech-800) / <alpha-value>)',
+          accent: 'rgb(var(--color-tech-accent) / <alpha-value>)',
+          glow: 'rgb(var(--color-tech-glow) / <alpha-value>)',
+          gold: 'rgb(var(--color-tech-gold) / <alpha-value>)',
         },
         brand: {
-          highlight: '#ffffff',
-          midLight: '#7a1424',
-          midDark: '#3b0f14',
-          deep: '#080808',
+          highlight: 'rgb(var(--color-brand-highlight) / <alpha-value>)',
+          midLight: 'rgb(var(--color-brand-mid-light) / <alpha-value>)',
+          midDark: 'rgb(var(--color-brand-mid-dark) / <alpha-value>)',
+          deep: 'rgb(var(--color-brand-deep) / <alpha-value>)',
         }
       },
       backgroundImage: theme => ({
         // diagonal full-site gradient
-        'site-gradient': 'linear-gradient(135deg, #000000 0%, #12050a 28%, rgba(220,22,49,0.72) 55%, #000000 100%)',
+        'site-gradient': 'var(--gradient-site)',
         // softer section gradient (dark crimson mist)
-        'section-gradient': 'linear-gradient(180deg, rgba(220,22,49,0.08) 0%, rgba(255,255,255,0.06) 100%)',
+        'section-gradient': 'var(--gradient-section)',
         // card/button accent subtle gradient
-        'card-gradient': 'linear-gradient(135deg, rgba(220,22,49,0.16) 0%, rgba(255,255,255,0.05) 60%)',
+        'card-gradient': 'var(--gradient-card)',
       }),
       keyframes: {
         'gradient-pan': {
