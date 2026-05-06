@@ -24,6 +24,59 @@ const THEMES = [
     name: "Runway Dawn",
     swatches: ["#080c12", "#e2682e", "#74c6ac"],
   },
+
+  // New themes
+
+  {
+    id: "midnight-radar",
+    name: "Midnight Radar",
+    swatches: ["#020b12", "#3cffb3", "#1d7cf2"],
+  },
+  {
+    id: "storm-vector",
+    name: "Storm Vector",
+    swatches: ["#0b1020", "#7a8cff", "#d9e2ff"],
+  },
+  {
+    id: "solar-flare",
+    name: "Solar Flare",
+    swatches: ["#120300", "#ff6b00", "#ffd166"],
+  },
+  {
+    id: "orbital-ice",
+    name: "Orbital Ice",
+    swatches: ["#06131f", "#7ee7ff", "#dff7ff"],
+  },
+  {
+    id: "stealth-mode",
+    name: "Stealth Mode",
+    swatches: ["#050505", "#5c677d", "#cfd8dc"],
+  },
+  {
+    id: "phoenix-core",
+    name: "Phoenix Core",
+    swatches: ["#0e0200", "#ff4820", "#ffb45c"],
+  },
+  {
+    id: "molten-orbit",
+    name: "Molten Orbit",
+    swatches: ["#120500", "#ff6200", "#ffd278"],
+  },
+  {
+    id: "crimson-vortex",
+    name: "Crimson Vortex",
+    swatches: ["#0a0004", "#dc143c", "#ff788c"],
+  },
+  {
+    id: "ember-strike",
+    name: "Ember Strike",
+    swatches: ["#0c0401", "#ff5818", "#ffa060"],
+  },
+  {
+    id: "redline",
+    name: "Redline",
+    swatches: ["#060000", "#ff2222", "#ffc878"],
+  },
 ];
 
 function applyTheme(themeId) {
@@ -99,9 +152,8 @@ export default function ThemePicker() {
               <button
                 key={item.id}
                 type="button"
-                className={`flex w-full items-center justify-between rounded-md px-3 py-2 text-left transition ${
-                  selected ? "bg-white/10 text-tech-gold" : "hover:bg-white/5 hover:text-white"
-                }`}
+                className={`flex w-full items-center justify-between rounded-md px-3 py-2 text-left transition ${selected ? "bg-white/10 text-tech-gold" : "hover:bg-white/5 hover:text-white"
+                  }`}
                 onClick={() => selectTheme(item.id)}
                 role="menuitem"
               >
