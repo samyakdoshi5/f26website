@@ -10,10 +10,10 @@
     <script>
       (function () {
         try {
-          var theme = localStorage.getItem("falcons-theme") || "wind-tunnel";
+          var theme = localStorage.getItem("falcons-theme") || "default";
           document.documentElement.dataset.theme = theme;
         } catch (error) {
-          document.documentElement.dataset.theme = "wind-tunnel";
+          document.documentElement.dataset.theme = "default";
         }
       })();
     </script>

@@ -245,7 +245,7 @@ const Home = () => {
         <div
           className="absolute bottom-0 inset-x-0 h-12 z-[45] pointer-events-none"
           style={{
-            backgroundImage: 'linear-gradient(to top, var(--global-background-color, #000000) 10%, transparent 100%)',
+            backgroundImage: 'var(--gradient-hero-fade)',
           }}
         />
 
@@ -280,7 +280,7 @@ const Home = () => {
           <Reveal duration={0.5} delay={0.1}>
             <div className="bg-card-gradient bg-opacity-80 border border-slate-700 p-8 rounded-2xl hover:border-tech-gold transition duration-300">
               <div className="flex items-center mb-4">
-                <Users size={32} className="text-tech-accent" />
+                <Users size={32} className="text-tech-gold" />
                 <h2 className="text-3xl font-bold ml-3 text-tech-gold">{ABOUT_DATA.teamTitle}</h2>
               </div>
 
@@ -291,7 +291,7 @@ const Home = () => {
           <Reveal duration={0.5} delay={0.1}>
             <div className="bg-card-gradient bg-opacity-80 border border-slate-700 p-8 rounded-2xl hover:border-tech-gold transition duration-300">
               <div className="flex items-center mb-4">
-                <Target size={32} className="text-tech-accent" />
+                <Target size={32} className="text-tech-gold" />
                 <h2 className="text-3xl font-bold ml-3 text-tech-gold">{ABOUT_DATA.missionTitle}</h2>
               </div>
               <p className="text-slate-300 leading-relaxed">{ABOUT_DATA.missionText}</p>
@@ -312,7 +312,7 @@ const Home = () => {
             {DEPARTMENTS_DATA.map((dept) => (
               <Reveal key={dept.title} delay={0.1} duration={0.5} amount={0.2}>
                 <div className="bg-card-gradient p-6 rounded-xl text-center hover:-translate-y-2 transition duration-300 shadow-lg border-t-4 border-transparent hover:border-tech-gold">
-                  <dept.icon size={40} className="mx-auto mb-4 text-tech-accent" />
+                  <dept.icon size={40} className="mx-auto mb-4 text-tech-gold" />
                   <h3 className="text-xl font-bold text-white mb-2">{dept.title}</h3>
                   <p className="text-md text-slate-400">{dept.desc}</p>
                 </div>

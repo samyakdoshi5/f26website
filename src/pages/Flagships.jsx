@@ -108,8 +108,7 @@ const Flagships = () => {
               <div
                 className="p-6 border-b border-slate-700 flex justify-between items-center relative overflow-hidden"
                 style={{
-                  background:
-                    "linear-gradient(90deg, rgb(var(--color-tech-900) / 0.78) 0%, rgb(var(--color-brand-mid-dark) / 0.52) 42%, rgb(var(--color-tech-accent) / 0.14) 100%)",
+                  background: "var(--gradient-modal-header-flagships)",
                 }}
               >
                 <div className="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-tech-gold blur-[110px] opacity-30 pointer-events-none"></div>

@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(var(--color-slate-800));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(var(--color-white));
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--react-demo-link);
 }
 
 @keyframes App-logo-spin {
@@ -39,11 +39,11 @@
 
 /* heavy frosted blur for mobile dropdown */
 .mobile-blur {
-  background-color: rgba(255,255,255,0.02);   /* tiny tint so blur is visible */
+  background-color: var(--surface-mobile-blur);   /* tiny tint so blur is visible */
   -webkit-backdrop-filter: blur(20px);         /* Safari */
   backdrop-filter: blur(20px);                 /* Chrome/Firefox (when supported) */
-  border-bottom: 1px solid rgba(148,163,184,0.06);
-  box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+  border-bottom: 1px solid var(--border-mobile-blur);
+  box-shadow: var(--shadow-header);
   /* ensure no isolation is interfering */
   isolation: isolate;
 }

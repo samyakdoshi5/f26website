@@ -6,6 +6,31 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        white: 'rgb(var(--color-white) / <alpha-value>)',
+        black: 'rgb(var(--color-black) / <alpha-value>)',
+        slate: {
+          900: 'rgb(var(--color-slate-900) / <alpha-value>)',
+          800: 'rgb(var(--color-slate-800) / <alpha-value>)',
+          700: 'rgb(var(--color-slate-700) / <alpha-value>)',
+          400: 'rgb(var(--color-slate-400) / <alpha-value>)',
+          300: 'rgb(var(--color-slate-300) / <alpha-value>)',
+          200: 'rgb(var(--color-slate-200) / <alpha-value>)',
+        },
+        gray: {
+          800: 'rgb(var(--color-gray-800) / <alpha-value>)',
+          700: 'rgb(var(--color-gray-700) / <alpha-value>)',
+          400: 'rgb(var(--color-gray-400) / <alpha-value>)',
+          300: 'rgb(var(--color-gray-300) / <alpha-value>)',
+        },
+        red: {
+          600: 'rgb(var(--color-red-600) / <alpha-value>)',
+          500: 'rgb(var(--color-red-500) / <alpha-value>)',
+        },
+        blue: {
+          600: 'rgb(var(--color-blue-600) / <alpha-value>)',
+          500: 'rgb(var(--color-blue-500) / <alpha-value>)',
+          200: 'rgb(var(--color-blue-200) / <alpha-value>)',
+        },
         tech: {
           900: 'rgb(var(--color-tech-900) / <alpha-value>)',
           800: 'rgb(var(--color-tech-800) / <alpha-value>)',
@@ -27,6 +52,14 @@ module.exports = {
         'section-gradient': 'var(--gradient-section)',
         // card/button accent subtle gradient
         'card-gradient': 'var(--gradient-card)',
+        'hero-fade': 'var(--gradient-hero-fade)',
+        'modal-header-gallery': 'var(--gradient-modal-header-gallery)',
+        'modal-header-flagships': 'var(--gradient-modal-header-flagships)',
+      }),
+      boxShadow: theme => ({
+        'tech-gold': 'var(--shadow-tech-gold)',
+        'tech-gold-soft': 'var(--shadow-tech-gold-soft)',
+        header: 'var(--shadow-header)',
       }),
       keyframes: {
         'gradient-pan': {

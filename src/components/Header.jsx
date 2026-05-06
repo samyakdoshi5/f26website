@@ -80,7 +80,7 @@ const Header = () => {
       className="
         fixed top-0 left-0 w-full z-50
         bg-black/20 backdrop-blur-sm
-        border-b border-white/10 shadow-xl
+        border-b border-white/10 shadow-header
       "
     >
       {/* Header inner wrapper — keep this above the backdrop when menu opens */}
@@ -169,7 +169,7 @@ const Header = () => {
             <div
               className="absolute inset-0"
               style={{
-                background: "rgba(15, 23, 42, 0.36)",
+                background: "var(--backdrop-mobile-menu)",
                 WebkitBackdropFilter: "blur(8px)",
                 backdropFilter: "blur(8px)",
               }}
