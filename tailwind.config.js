@@ -7,26 +7,26 @@ module.exports = {
     extend: {
       colors: {
         tech: {
-          900: '#0f172a',
-          800: '#1e293b',
-          accent: '#3b82f6',
-          glow: '#06b6d4',
-          gold: "#E3AF64",
+          900: '#000000',
+          800: '#090909',
+          accent: '#dc1631',
+          glow: '#ff2d50',
+          gold: '#dc1631',
         },
         brand: {
-          highlight: '#e3af64', // gold highlight
-          midLight: '#516AC8',  // midtone light
-          midDark: '#26428B',   // midtone dark
-          deep: '#0F1939',      // dark
+          highlight: '#ffffff',
+          midLight: '#7a1424',
+          midDark: '#3b0f14',
+          deep: '#080808',
         }
       },
       backgroundImage: theme => ({
         // diagonal full-site gradient
-        'site-gradient': 'linear-gradient(135deg, #e3af64 0%, #516AC8 40%, #26428B 70%, #0F1939 100%)',
-        // softer section gradient (lighter feel)
-        'section-gradient': 'linear-gradient(180deg, rgba(81,106,200,0.08) 0%, rgba(38,66,139,0.06) 100%)',
+        'site-gradient': 'linear-gradient(135deg, #000000 0%, #12050a 28%, rgba(220,22,49,0.72) 55%, #000000 100%)',
+        // softer section gradient (dark crimson mist)
+        'section-gradient': 'linear-gradient(180deg, rgba(220,22,49,0.08) 0%, rgba(255,255,255,0.06) 100%)',
         // card/button accent subtle gradient
-        'card-gradient': 'linear-gradient(135deg, rgba(226,175,100,0.14) 0%, rgba(81,106,200,0.08) 60%)',
+        'card-gradient': 'linear-gradient(135deg, rgba(220,22,49,0.16) 0%, rgba(255,255,255,0.05) 60%)',
       }),
       keyframes: {
         'gradient-pan': {

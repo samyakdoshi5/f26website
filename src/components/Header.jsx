@@ -78,8 +78,8 @@ const Header = () => {
     <header
       className="
         fixed top-0 left-0 w-full z-50
-        bg-slate-900/20 backdrop-blur-sm
-        border-b border-slate-700 shadow-xl
+        bg-black/20 backdrop-blur-sm
+        border-b border-white/10 shadow-xl
       "
     >
       {/* Header inner wrapper — keep this above the backdrop when menu opens */}
@@ -190,7 +190,7 @@ const Header = () => {
             <nav
               className="
                 flex flex-col py-4 px-6 space-y-2 max-w-6xl mx-auto
-                bg-slate-800/80 backdrop-blur-md border-t border-slate-700
+                bg-black/75 backdrop-blur-md border-t border-white/10
               "
             >
               {NAV_LINKS.map((link, idx) => {

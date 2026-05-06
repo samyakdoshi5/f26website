@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 body {
-  background-color: #0f172a;
+  --global-background-color: #000000;
+  background: radial-gradient(circle at top right, rgba(220,22,49,0.16), transparent 18%),
+              radial-gradient(circle at bottom left, rgba(255,255,255,0.06), transparent 20%),
+              #000000;
   color: #f8fafc;
   overflow-x: hidden;
 }
@@ -12,14 +15,14 @@ body {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #0f172a; 
+  background: #050505;
 }
 ::-webkit-scrollbar-thumb {
-  background: #334155; 
+  background: #6f1527;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3b82f6; 
+  background: #dc1631;
 }
 
 .hide-scrollbar::-webkit-scrollbar {

@@ -108,7 +108,7 @@ const Gallery = () => {
                 className="p-6 border-b border-slate-700 flex justify-between items-center relative overflow-hidden"
                 style={{
                   background:
-                    "linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(20,20,20,0.5) 40%, rgba(227,175,100,0.06) 100%)",
+                    "linear-gradient(90deg, rgba(0,0,0,0.65) 0%, rgba(18,6,8,0.5) 40%, rgba(220,22,49,0.08) 100%)",
                 }}
               >
                 <div className="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-tech-gold blur-[110px] opacity-30 pointer-events-none" />
@@ -176,7 +176,7 @@ const Gallery = () => {
                           )}
 
                           <div className="absolute inset-0 pointer-events-none rounded-lg opacity-0 group-hover:opacity-100 transition">
-                            <div className="absolute inset-0 border-2 rounded-lg border-tech-gold/30 shadow-[0_8px_30px_-10px_rgba(227,175,100,0.25)]" />
+                            <div className="absolute inset-0 border-2 rounded-lg border-tech-gold/30 shadow-[0_8px_30px_-10px_rgba(220,22,49,0.22)]" />
                           </div>
                         </motion.button>
                       );

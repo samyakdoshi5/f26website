@@ -101,7 +101,7 @@ export default function SponsorUs() {
                                 {/* Card structure updated: removed motion.div, added centered text, prominent hover/border */}
                                 <div className="bg-card-gradient p-6 rounded-xl text-center hover:-translate-y-2 transition duration-300 shadow-lg border-t-2 border-transparent hover:border-tech-gold">
                                     {/* Icon sizing, centering, and spacing updated */}
-                                    <p.icon size={40} className="mx-auto mb-4 text-slate-400" color="#E3AF64" />
+                                    <p.icon size={40} className="mx-auto mb-4 text-slate-400" color="#dc1631" />
                                     {/* Title styling updated */}
                                     <h4 className="text-xl font-bold text-white mb-2">{p.title}</h4>
                                     {/* Description styling updated */}
