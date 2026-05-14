@@ -22,37 +22,37 @@ const THEMES = [
   {
     id: "afterburner",
     name: "Afterburner",
-    swatches: ["#000000", "#ff522d", "#69000f"],
+    swatches: ["#0d0205", "#ff522d", "#69000f"],
   },
   {
     id: "ember-red",
     name: "Ember Red",
-    swatches: ["#010001", "#ff6136", "#7e0811"],
+    swatches: ["#0c0304", "#ff6136", "#7e0811"],
   },
   {
     id: "crimson-jet",
     name: "Crimson Jet",
-    swatches: ["#020001", "#ff4826", "#520016"],
+    swatches: ["#0a0106", "#ff4826", "#520016"],
   },
   {
     id: "scarlet-core",
     name: "Scarlet Core",
-    swatches: ["#000000", "#ff6f40", "#910505"],
+    swatches: ["#0d0101", "#ff6f40", "#910505"],
   },
   {
     id: "obsidian-volt",
     name: "Obsidian Volt",
-    swatches: ["#020403", "#b6ff2e", "#007a45"],
+    swatches: ["#050a07", "#b6ff2e", "#007a45"],
   },
   {
     id: "ion-cobalt",
     name: "Ion Cobalt",
-    swatches: ["#020612", "#16c7ff", "#1238ff"],
+    swatches: ["#050b1c", "#16c7ff", "#1238ff"],
   },
   {
     id: "plasma-rush",
     name: "Plasma Rush",
-    swatches: ["#050006", "#ff3dd8", "#ff7a1a"],
+    swatches: ["#0c020e", "#ff3dd8", "#ff7a1a"],
   },
   {
     id: "titanium-ember",

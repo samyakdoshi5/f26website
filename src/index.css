@@ -115,74 +115,74 @@
 }
 
 [data-theme="afterburner"] {
-  --color-tech-900: 0 0 0;
-  --color-tech-800: 9 9 9;
+  --color-tech-900: 13 2 5;
+  --color-tech-800: 28 6 10;
   --color-tech-accent: 255 82 45;
   --color-tech-glow: 255 117 71;
   --color-tech-gold: 176 0 0;
   --color-brand-highlight: 255 176 112;
   --color-brand-mid-light: 255 82 45;
   --color-brand-mid-dark: 105 0 15;
-  --color-brand-deep: 8 8 8;
-  --gradient-site: linear-gradient(135deg, #000000 0%, #1a0307 26%, rgba(255, 82, 45, 0.45) 48%, rgba(105, 0, 15, 0.54) 70%, #000000 100%);
+  --color-brand-deep: 13 2 5;
+  --gradient-site: linear-gradient(135deg, #0d0205 0%, #22060b 26%, rgba(255, 82, 45, 0.45) 48%, rgba(105, 0, 15, 0.54) 70%, #120206 100%);
   --gradient-section: linear-gradient(180deg, rgba(255, 82, 45, 0.09) 0%, rgba(105, 0, 15, 0.11) 100%);
   --gradient-card: linear-gradient(135deg, rgba(255, 82, 45, 0.16) 0%, rgba(105, 0, 15, 0.14) 68%);
-  --global-background-color: #000000;
-  --scrollbar-track: #050505;
+  --global-background-color: #0d0205;
+  --scrollbar-track: #130307;
   --scrollbar-thumb: #69000f;
 }
 
 [data-theme="ember-red"] {
-  --color-tech-900: 1 0 1;
-  --color-tech-800: 14 5 6;
+  --color-tech-900: 12 3 4;
+  --color-tech-800: 28 8 8;
   --color-tech-accent: 255 97 54;
   --color-tech-glow: 255 136 88;
   --color-tech-gold: 184 0 0;
   --color-brand-highlight: 255 190 122;
   --color-brand-mid-light: 255 97 54;
   --color-brand-mid-dark: 126 8 17;
-  --color-brand-deep: 9 0 2;
-  --gradient-site: linear-gradient(135deg, #010001 0%, #1c0306 28%, rgba(255, 97, 54, 0.42) 50%, rgba(126, 8, 17, 0.58) 74%, #030000 100%);
+  --color-brand-deep: 12 3 4;
+  --gradient-site: linear-gradient(135deg, #0c0304 0%, #240607 28%, rgba(255, 97, 54, 0.42) 50%, rgba(126, 8, 17, 0.58) 74%, #130202 100%);
   --gradient-section: linear-gradient(180deg, rgba(255, 97, 54, 0.09) 0%, rgba(126, 8, 17, 0.11) 100%);
   --gradient-card: linear-gradient(135deg, rgba(255, 97, 54, 0.15) 0%, rgba(126, 8, 17, 0.15) 70%);
-  --global-background-color: #010001;
-  --scrollbar-track: #050102;
+  --global-background-color: #0c0304;
+  --scrollbar-track: #130304;
   --scrollbar-thumb: #7e0811;
 }
 
 [data-theme="crimson-jet"] {
-  --color-tech-900: 2 0 1;
-  --color-tech-800: 13 2 5;
+  --color-tech-900: 10 1 6;
+  --color-tech-800: 25 4 12;
   --color-tech-accent: 255 72 38;
   --color-tech-glow: 255 106 60;
   --color-tech-gold: 150 0 0;
   --color-brand-highlight: 255 158 108;
   --color-brand-mid-light: 255 72 38;
   --color-brand-mid-dark: 82 0 22;
-  --color-brand-deep: 7 0 3;
-  --gradient-site: linear-gradient(135deg, #020001 0%, #190208 28%, rgba(255, 72, 38, 0.38) 48%, rgba(82, 0, 22, 0.64) 72%, #020001 100%);
+  --color-brand-deep: 10 1 6;
+  --gradient-site: linear-gradient(135deg, #0a0106 0%, #210411 28%, rgba(255, 72, 38, 0.38) 48%, rgba(82, 0, 22, 0.64) 72%, #100108 100%);
   --gradient-section: linear-gradient(180deg, rgba(255, 72, 38, 0.08) 0%, rgba(82, 0, 22, 0.12) 100%);
   --gradient-card: linear-gradient(135deg, rgba(255, 72, 38, 0.14) 0%, rgba(82, 0, 22, 0.17) 70%);
-  --global-background-color: #020001;
-  --scrollbar-track: #050002;
+  --global-background-color: #0a0106;
+  --scrollbar-track: #12020a;
   --scrollbar-thumb: #520016;
 }
 
 [data-theme="scarlet-core"] {
-  --color-tech-900: 0 0 0;
-  --color-tech-800: 12 3 3;
+  --color-tech-900: 13 1 1;
+  --color-tech-800: 28 6 4;
   --color-tech-accent: 255 111 64;
   --color-tech-glow: 255 69 48;
   --color-tech-gold: 198 0 0;
   --color-brand-highlight: 255 199 94;
   --color-brand-mid-light: 255 111 64;
   --color-brand-mid-dark: 145 5 5;
-  --color-brand-deep: 8 0 0;
-  --gradient-site: linear-gradient(135deg, #000000 0%, #1d0303 26%, rgba(255, 111, 64, 0.4) 49%, rgba(145, 5, 5, 0.6) 73%, #000000 100%);
+  --color-brand-deep: 13 1 1;
+  --gradient-site: linear-gradient(135deg, #0d0101 0%, #240604 26%, rgba(255, 111, 64, 0.4) 49%, rgba(145, 5, 5, 0.6) 73%, #120201 100%);
   --gradient-section: linear-gradient(180deg, rgba(255, 111, 64, 0.08) 0%, rgba(145, 5, 5, 0.12) 100%);
   --gradient-card: linear-gradient(135deg, rgba(255, 111, 64, 0.15) 0%, rgba(145, 5, 5, 0.15) 70%);
-  --global-background-color: #000000;
-  --scrollbar-track: #050000;
+  --global-background-color: #0d0101;
+  --scrollbar-track: #140202;
   --scrollbar-thumb: #910505;
 }
 
@@ -223,56 +223,56 @@
 }
 
 [data-theme="obsidian-volt"] {
-  --color-tech-900: 2 4 3;
-  --color-tech-800: 10 16 13;
+  --color-tech-900: 5 10 7;
+  --color-tech-800: 13 24 18;
   --color-tech-accent: 182 255 46;
   --color-tech-glow: 0 214 148;
   --color-tech-gold: 0 122 69;
   --color-brand-highlight: 217 255 126;
   --color-brand-mid-light: 75 196 88;
   --color-brand-mid-dark: 8 68 49;
-  --color-brand-deep: 2 4 3;
-  --gradient-site: linear-gradient(135deg, #020403 0%, #07100c 30%, rgba(182, 255, 46, 0.24) 52%, rgba(0, 214, 148, 0.2) 72%, #030504 100%);
+  --color-brand-deep: 5 10 7;
+  --gradient-site: linear-gradient(135deg, #050a07 0%, #0b1a13 30%, rgba(182, 255, 46, 0.24) 52%, rgba(0, 214, 148, 0.2) 72%, #07100b 100%);
   --gradient-section: linear-gradient(180deg, rgba(182, 255, 46, 0.07) 0%, rgba(0, 122, 69, 0.1) 100%);
   --gradient-card: linear-gradient(135deg, rgba(182, 255, 46, 0.12) 0%, rgba(0, 214, 148, 0.09) 70%);
-  --global-background-color: #020403;
-  --scrollbar-track: #050806;
+  --global-background-color: #050a07;
+  --scrollbar-track: #07100b;
   --scrollbar-thumb: #007a45;
 }
 
 [data-theme="ion-cobalt"] {
-  --color-tech-900: 2 6 18;
-  --color-tech-800: 9 18 38;
+  --color-tech-900: 5 11 28;
+  --color-tech-800: 12 25 52;
   --color-tech-accent: 22 199 255;
   --color-tech-glow: 54 113 255;
   --color-tech-gold: 18 56 255;
   --color-brand-highlight: 164 232 255;
   --color-brand-mid-light: 22 199 255;
   --color-brand-mid-dark: 15 43 142;
-  --color-brand-deep: 2 6 18;
-  --gradient-site: linear-gradient(135deg, #020612 0%, #081529 32%, rgba(22, 199, 255, 0.26) 54%, rgba(18, 56, 255, 0.24) 76%, #020611 100%);
+  --color-brand-deep: 5 11 28;
+  --gradient-site: linear-gradient(135deg, #050b1c 0%, #0c1a35 32%, rgba(22, 199, 255, 0.26) 54%, rgba(18, 56, 255, 0.24) 76%, #061020 100%);
   --gradient-section: linear-gradient(180deg, rgba(22, 199, 255, 0.08) 0%, rgba(18, 56, 255, 0.09) 100%);
   --gradient-card: linear-gradient(135deg, rgba(22, 199, 255, 0.13) 0%, rgba(18, 56, 255, 0.12) 72%);
-  --global-background-color: #020612;
-  --scrollbar-track: #050a16;
+  --global-background-color: #050b1c;
+  --scrollbar-track: #071127;
   --scrollbar-thumb: #1238ff;
 }
 
 [data-theme="plasma-rush"] {
-  --color-tech-900: 5 0 6;
-  --color-tech-800: 17 5 18;
+  --color-tech-900: 12 2 14;
+  --color-tech-800: 29 8 31;
   --color-tech-accent: 255 61 216;
   --color-tech-glow: 255 122 26;
   --color-tech-gold: 154 0 120;
   --color-brand-highlight: 255 174 93;
   --color-brand-mid-light: 255 61 216;
   --color-brand-mid-dark: 92 0 78;
-  --color-brand-deep: 5 0 6;
-  --gradient-site: linear-gradient(135deg, #050006 0%, #17051b 30%, rgba(255, 61, 216, 0.25) 52%, rgba(255, 122, 26, 0.22) 74%, #060003 100%);
+  --color-brand-deep: 12 2 14;
+  --gradient-site: linear-gradient(135deg, #0c020e 0%, #210825 30%, rgba(255, 61, 216, 0.25) 52%, rgba(255, 122, 26, 0.22) 74%, #12020a 100%);
   --gradient-section: linear-gradient(180deg, rgba(255, 61, 216, 0.08) 0%, rgba(154, 0, 120, 0.1) 100%);
   --gradient-card: linear-gradient(135deg, rgba(255, 61, 216, 0.13) 0%, rgba(255, 122, 26, 0.09) 72%);
-  --global-background-color: #050006;
-  --scrollbar-track: #0d020e;
+  --global-background-color: #0c020e;
+  --scrollbar-track: #140316;
   --scrollbar-thumb: #9a0078;
 }
 
