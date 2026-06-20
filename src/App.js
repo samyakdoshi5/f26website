@@ -1,5 +1,5 @@
 // src/App.js
-import React from "react";
+import React, { useEffect, useMemo } from "react";
 import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -10,7 +10,6 @@ import ContactUs from "./pages/ContactUs";
 import SponsorUs from "./pages/SponsorUs";
 import Preloader from "./components/Preloader";
 
-import { useEffect } from "react";
 // We keep HERO_DATA for text properties; backgroundImage may be external (Vimeo).
 import { HERO_DATA, SPONSORS_LOGOS, TEAM_INFO } from "./data";
 
@@ -57,7 +56,7 @@ function assetsForPath(pathname) {
  */
 function AppWrapper() {
   const location = useLocation();
-  const assets = assetsForPath(location.pathname);
+  const assets = useMemo(() => assetsForPath(location.pathname), [location.pathname]);
 
   return (
     <Preloader assets={assets} timeoutMs={10000} showProgress>

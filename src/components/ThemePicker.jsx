@@ -10,6 +10,11 @@ const THEMES = [
     swatches: ["#0f172a", "#3b82f6", "#e3af64"],
   },
   {
+    id: "brick-slate",
+    name: "Brick Slate",
+    swatches: ["#081120", "#16263f", "#ffffff", "#b91c2b", "#bfc7d5"],
+  },
+  {
     id: "wind-tunnel",
     name: "Wind Tunnel",
     swatches: ["#03090f", "#00c2cb", "#f9b540"],

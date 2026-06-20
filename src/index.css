@@ -114,6 +114,62 @@
   --react-demo-link: rgb(var(--color-tech-glow));
 }
 
+[data-theme="brick-slate"] {
+  color-scheme: dark;
+  --color-tech-900: 8 17 32;
+  --color-tech-800: 22 38 63;
+  --color-tech-accent: 185 28 43;
+  --color-tech-glow: 191 199 213;
+  --color-tech-gold: 185 28 43;
+  --color-brand-highlight: 191 199 213;
+  --color-brand-mid-light: 191 199 213;
+  --color-brand-mid-dark: 22 38 63;
+  --color-brand-deep: 8 17 32;
+
+  --color-white: 255 255 255;
+  --color-black: 8 17 32;
+
+  --color-slate-900: 8 17 32;
+  --color-slate-800: 22 38 63;
+  --color-slate-700: 46 61 88;
+  --color-slate-400: 191 199 213;
+  --color-slate-300: 220 225 234;
+  --color-slate-200: 241 243 247;
+
+  --color-gray-800: 22 38 63;
+  --color-gray-700: 46 61 88;
+  --color-gray-400: 191 199 213;
+  --color-gray-300: 220 225 234;
+
+  --color-red-600: 185 28 43;
+  --color-red-500: 210 45 60;
+
+  --color-blue-600: 22 38 63;
+  --color-blue-500: 42 64 99;
+  --color-blue-200: 191 199 213;
+
+  --global-background-color: #081120;
+  --global-text-color: #ffffff;
+
+  --scrollbar-track: #081120;
+  --scrollbar-thumb: #16263f;
+  --scrollbar-thumb-hover: #b91c2b;
+
+  --gradient-site: linear-gradient(135deg, #081120 0%, #16263f 38%, rgba(185, 28, 43, 0.34) 68%, #081120 100%);
+  --gradient-section: linear-gradient(180deg, rgba(191, 199, 213, 0.08) 0%, rgba(185, 28, 43, 0.07) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(191, 199, 213, 0.13) 0%, rgba(185, 28, 43, 0.11) 68%);
+  --gradient-hero-fade: linear-gradient(to top, var(--global-background-color, #081120) 10%, transparent 100%);
+  --gradient-modal-header-gallery: linear-gradient(90deg, rgba(8, 17, 32, 0.84) 0%, rgba(22, 38, 63, 0.72) 42%, rgba(185, 28, 43, 0.12) 100%);
+  --gradient-modal-header-flagships: linear-gradient(90deg, rgba(8, 17, 32, 0.84) 0%, rgba(22, 38, 63, 0.72) 42%, rgba(185, 28, 43, 0.18) 100%);
+  --shadow-tech-gold: 0 8px 25px -6px rgba(185, 28, 43, 0.42);
+  --shadow-tech-gold-soft: 0 8px 30px -10px rgba(185, 28, 43, 0.24);
+  --shadow-header: none;
+  --surface-mobile-blur: rgba(191, 199, 213, 0.04);
+  --border-mobile-blur: rgba(191, 199, 213, 0.14);
+  --backdrop-mobile-menu: rgba(8, 17, 32, 0.58);
+  --react-demo-link: rgb(var(--color-tech-glow));
+}
+
 [data-theme="afterburner"] {
   --color-tech-900: 13 2 5;
   --color-tech-800: 28 6 10;

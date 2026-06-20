@@ -35,21 +35,21 @@ export const HERO_DATA = {
   subtitle: "Designing, building, and flying the next generation of UAVs.",
   brochureLink: `${PUBLIC}/AssailingFalcons25-Brochure.pdf`,
   buttonText: "Support Us",
-  teamPhoto: `${PUBLIC}/images/all/Team-Photo.jpg`
+  teamPhoto: `${PUBLIC}/images/all/Indra-Team.jpeg`
 };
 
 export const ABOUT_DATA = {
   teamTitle: "Our Team",
   teamText: "Team Assailing Falcons is VIT’s premier aeromodelling team, specializing in the design, fabrication, and testing of autonomous unmanned aerial vehicles (UAVs). Founded in 2010, we have grown into a 50+ member multidisciplinary team that consistently pushes the boundaries of innovation. Ranked #3 in the world, we excel in national and international competitions and provide a hands-on environment that transforms students into industry-ready engineers.",
   missionTitle: "Our Mission",
-  missionText: "Our mission is to pioneer cutting-edge UAV technology, achieve excellence on the global stage, and cultivate future engineers through real-world learning: from conceptual design to autonomous flight testing. We empower students to take ownership of complex challenges, developing skills that extend far beyond the classroom. Driven by curiosity and commitment, we continue to evolve with the rapidly advancing aerospace landscape while promoting STEM research and education."
+  missionText: "Our mission is to advance UAV innovation, inspire excellence in aerospace engineering, and empower students through hands-on experience in designing, building, and testing autonomous aerial systems. Through innovation, research, and real-world problem-solving, we develop the engineers and leaders shaping the future of flight."
 };
 
 export const DEPARTMENTS_DATA = [
-  { icon: PenTool, title: "Design", desc: "The Design Department engineers the aerodynamic soul of every Falcons aircraft. Through conceptual sizing, MDO, CFD, airfoil studies, and XFLR-driven performance mapping, the team shapes platforms built for mission superiority. With decisive trade studies across VTOL and fixed-wing configurations, Design drives innovation through precision, data, and aerodynamic excellence." },
-  { icon: Plane, title: "Structures", desc: "The Structures Department turns vision into reality through complete CAD development, advanced structural analysis, and FEA-backed optimization. Working across diverse materials and performing in-house composite layups, the team delivers airframes that are light, resilient, and competition-proven. Structures ensures every Falcons UAV meets uncompromising standards of strength and reliability." },
-  { icon: Cpu, title: "Avionics", desc: "The Avionics Department drives the autonomy and intelligence of every Falcons aircraft. The team develops flight-control systems, mission logic, and sensor integration that enable precise, reliable, self-governed flight. Alongside propulsion tuning, TMD testing, and power-system optimization, Avionics ensures each aircraft executes missions with stability, efficiency, and confident autonomous performance." },
-  { icon: BarChart, title: "Management", desc: "The Management Department is the strategic engine that sustains the Falcons’ momentum. Through masterful coordination of logistics, sponsorships, documentation, and outreach, the team builds the ecosystem that enables engineering excellence. Their leadership strengthens partnerships, elevates visibility, and ensures the Falcons operate with purpose, discipline, and global ambition." }
+  { icon: PenTool, title: "Design", desc: "The Design Department forms the foundation of every Falcons aircraft, transforming ideas into efficient and mission-ready aerial systems. Through conceptual design, aerodynamic analysis, MDO, CFD simulations, airfoil optimization, and performance evaluation, the team develops aircraft that balance innovation, efficiency, and reliability. By exploring and refining both VTOL and fixed-wing configurations, Design ensures every platform is engineered with precision, purpose, and a commitment to excellence." },
+  { icon: Plane, title: "Structures", desc: "The Structures Department is where engineering meets craftsmanship. Transforming concepts into flight-worthy airframes, the team carefully shapes every component through design, analysis, and fabrication. Blending precision with creativity, they work across materials and manufacturing techniques to create structures that are lightweight, resilient, and elegantly efficient. Every airframe reflects a commitment to strength, reliability, and the pursuit of excellence that carries Falcons UAVs from imagination to flight." },
+  { icon: Cpu, title: "Avionics", desc: "The Avionics Department integrates the intelligence behind every Falcons aircraft. Connecting sensors, payloads, power systems, and flight-control architecture, the team ensures every subsystem works as one. From autonomy and mission execution to system validation and optimization, Avionics enables aircraft to operate with precision, reliability, and confidence in demanding environments." },
+  { icon: BarChart, title: "Management", desc: "The Management Department connects people, opportunities, and ideas to propel the Falcons forward. Through strategic partnerships, sponsorships, outreach, and seamless coordination, the team builds the framework that enables innovation to flourish. Their efforts extend beyond administration, shaping the team's identity, strengthening its reach, and driving its pursuit of excellence." }
 ];
 
 export const STATS_DATA = [
@@ -87,6 +87,31 @@ export const SPONSORS_LOGOS = [
 export const AIRCRAFT_DATA = [
   {
     id: 1,
+    name: "Indra",
+    year: "2026",
+    mission: "Autonomous Tiltrotor VTOL",
+    rank: ["1st Flight Demonstration Readiness Review", "2nd Design Report", "3rd Aero Design MathWorks Simulation Award", "3rd Onshape Award", "6th Overall"],
+    coverImage: `${PUBLIC}/images/all/Indra-Hero.jpeg`,
+    description: "INDRA is an electric VTOL tricopter developed for precision payload delivery and retrieval missions. Combining vertical mobility with efficient forward flight, the platform delivers exceptional operational flexibility across a wide range of mission environments. Its lightweight airframe, optimized propulsion system, and integrated payload mechanism are engineered to maximize efficiency, reliability, and performance. Proven through extensive testing and iterative refinement under varied flight conditions, INDRA reflects a design philosophy centered on robustness, adaptability, and mission success.",
+    gallery: [
+      `${PUBLIC}/images/all/Indra-1.jpg`,
+      `${PUBLIC}/images/all/Indra-2.jpg`,
+      `${PUBLIC}/images/all/Indra-4.jpg`,
+      `${PUBLIC}/images/all/Indra-5.jpg`,
+      `${PUBLIC}/images/all/Indra-6.jpg`,
+      `${PUBLIC}/images/all/Indra-Comp1.jpg`,
+      `${PUBLIC}/images/all/Indra-Comp3.jpg`,
+      `${PUBLIC}/images/all/Indra-Comp4.jpg`,
+      `${PUBLIC}/images/all/Indra-Flight1.jpg`,
+      `${PUBLIC}/images/all/Indra-Flight2.jpg`,
+      `${PUBLIC}/images/all/Indra-Flight3.jpg`,
+      `${PUBLIC}/images/all/Indra-Flight4.png`,
+      `${PUBLIC}/images/all/Indra-Flight5.png`,
+      `${PUBLIC}/images/all/Indra-Team.jpeg`
+    ]
+  },
+  {
+    id: 2,
     name: "Vidhyut",
     year: "2025",
     mission: "Autonomous Tiltrotor VTOL",
@@ -109,11 +134,12 @@ export const AIRCRAFT_DATA = [
       `${PUBLIC}/images/all/Vidhyut-Flight3.jpg`,
       `${PUBLIC}/images/all/Vidhyut-Flight-Comp.jpg`,
       `${PUBLIC}/images/all/Vidhyut-General.jpg`,
-      `${PUBLIC}/images/all/Vidhyut-Team-Comp.jpg`
+      `${PUBLIC}/images/all/Vidhyut-Team-Comp.jpg`,
+      `${PUBLIC}/images/all/Team-Photo.jpg`
     ]
   },
   {
-    id: 2,
+    id: 3,
     name: "Marut",
     year: "2024",
     mission: "High payload, mid-air delivery",
@@ -133,7 +159,7 @@ export const AIRCRAFT_DATA = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     name: "Aquarius",
     year: "2023",
     mission: "Water payload delivery & PADA deployment",
@@ -153,7 +179,7 @@ export const AIRCRAFT_DATA = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     name: "Trident",
     year: "2022",
     mission: "Autonomous mid-air deployment & GTV support",
@@ -174,7 +200,7 @@ export const AIRCRAFT_DATA = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     name: "Vulcan",
     year: "2021",
     mission: "Creative design — competition-focused",
@@ -187,7 +213,7 @@ export const AIRCRAFT_DATA = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     name: "Airavat",
     year: "2020",
     mission: "High-lift electric, multi-deployment",
@@ -205,7 +231,7 @@ export const AIRCRAFT_DATA = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     name: "Redbird",
     year: "2019",
     mission: "Mars colonization simulation & increased aerodynamics",
@@ -222,7 +248,7 @@ export const AIRCRAFT_DATA = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     name: "Zephyrus",
     year: "2018",
     mission: "Advanced lift & payload drop",
@@ -236,7 +262,7 @@ export const AIRCRAFT_DATA = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     name: "Jetaayu",
     year: "2017",
     mission: "Weather analysis & thermal imaging (modifiable)",
@@ -259,8 +285,11 @@ export const AIRCRAFT_DATA = [
 export const GALLERY_CATEGORIES = [
   {
     name: "Up in Flight!",
-    coverImage: `${PUBLIC}/images/all/Vidhyut-Flight-Comp.jpg`,
+    coverImage: `${PUBLIC}/images/all/Indra-Flight4.png`,
     photos: [
+      `${PUBLIC}/images/all/Indra-Flight1.jpg`,
+      `${PUBLIC}/images/all/Indra-Flight2.jpg`,
+      `${PUBLIC}/images/all/Indra-Flight3.jpg`,
       `${PUBLIC}/images/all/Vidhyut-Flight.jpg`,
       `${PUBLIC}/images/all/Vidhyut-Flight2.jpg`,
       `${PUBLIC}/images/all/Vidhyut-Flight3.jpg`,
@@ -275,16 +304,19 @@ export const GALLERY_CATEGORIES = [
     name: "Competition Moments",
     coverImage: `${PUBLIC}/images/all/Airavat-Comp.jpg`,
     photos: [
-      `${PUBLIC}/images/all/Redbird-Flight-Comp.jpeg`,
-      `${PUBLIC}/images/all/Marut-Comp.jpg`,
-      `${PUBLIC}/images/all/Marut-Comp-Flight.jpg`,
-      `${PUBLIC}/images/all/Marut-Comp-Team3.jpg`,
+      `${PUBLIC}/images/all/Indra-Comp1.jpg`,
+      `${PUBLIC}/images/all/Indra-Comp4.jpg`,
+      `${PUBLIC}/images/all/Indra-Comp3.jpg`,
       `${PUBLIC}/images/all/Vidhyut-Comp.jpg`,
       `${PUBLIC}/images/all/Vidhyut-Comp2.jpg`,
       `${PUBLIC}/images/all/Vidhyut-Comp-Flight.jpg`,
       `${PUBLIC}/images/all/Vidhyut-Team-Comp.jpg`,
+      `${PUBLIC}/images/all/Marut-Comp.jpg`,
+      `${PUBLIC}/images/all/Marut-Comp-Flight.jpg`,
+      `${PUBLIC}/images/all/Marut-Comp-Team3.jpg`,
       `${PUBLIC}/images/all/Airavat-Comp.jpg`,
       `${PUBLIC}/images/all/Airavat-Comp-2.jpg`,
+      `${PUBLIC}/images/all/Redbird-Flight-Comp.jpeg`,
       `${PUBLIC}/images/all/Comp-1.jpg`,
       `${PUBLIC}/images/all/Comp-2.jpg`
     ]
@@ -307,7 +339,8 @@ export const GALLERY_CATEGORIES = [
     name: "Meet the Team.",
     coverImage: `${PUBLIC}/images/all/Team-India.jpg`,
     photos: [
-      `${PUBLIC}/images/all/Vidhyut-Team-Comp.jpg`,
+      `${PUBLIC}/images/all/Indra-Team.jpeg`,
+      `${PUBLIC}/images/all/Team-Photo.jpg`,
       `${PUBLIC}/images/all/Marut-Comp-Team3.jpg`,
       `${PUBLIC}/images/all/Aquarius-Team.jpg`,
       `${PUBLIC}/images/all/Trident-Team2.jpg`,
