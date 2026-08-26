@@ -39,9 +39,9 @@ export const HERO_DATA = {
 
 export const ABOUT_DATA = {
   teamTitle: "Our Team",
-  teamText: "Team Assailing Falcons is VIT’s premier aeromodelling team, specializing in the design, fabrication, and testing of autonomous unmanned aerial vehicles (UAVs). Founded in 2010, we have grown into a 50+ member multidisciplinary team that consistently pushes the boundaries of innovation. Ranked #3 in the world, we excel in national and international competitions and provide a hands-on environment that transforms students into industry-ready engineers.",
+  teamText: "Team Assailing Falcons is VIT’s premier aeromodelling team, specializing in the design, fabrication, and testing of autonomous unmanned aerial vehicles (UAVs). Founded in 2010, we have grown into a 50+ member multidisciplinary team that consistently pushes the boundaries of innovation. Ranked #1 in the Asia-Pacific, we excel in national and international competitions while providing a hands-on environment that transforms students into industry-ready engineers. Through teamwork, technical excellence, and continuous experimentation, we strive to build solutions that redefine the possibilities of autonomous flight.",
   missionTitle: "Our Mission",
-  missionText: "Our mission is to advance UAV innovation, inspire excellence in aerospace engineering, and empower students through hands-on experience in designing, building, and testing autonomous aerial systems. Through innovation, research, and real-world problem-solving, we develop the engineers and leaders shaping the future of flight."
+  missionText: "Our mission is to advance UAV innovation, inspire excellence in aerospace engineering, and empower students through hands-on experience in designing, building, and testing autonomous aerial systems. Through research, innovation, and real-world problem-solving, we equip students with the technical expertise, creativity, and leadership skills needed to tackle complex engineering challenges. By fostering a culture of collaboration and excellence, we aim to develop the engineers and leaders who will shape the future of flight. We envision a future where our innovations redefine autonomous aviation and inspire the next generation of aerospace engineers."
 };
 
 export const DEPARTMENTS_DATA = [
@@ -55,7 +55,7 @@ export const STATS_DATA = [
   { label: "Founding Year", value: "2010" },
   { label: "Aircraft Built", value: "20+" },
   { label: `Asia Rank`, value: "#1"},
-  { label: "World Rank", value: "#3" }
+  { label: "World Rank", value: "#6" }
 ];
 
 // src/data.js (SPONSORS_LOGOS)
@@ -274,8 +274,7 @@ export const AIRCRAFT_DATA = [
 ];
 
 // =================================================================================
-// 4. GALLERY PAGE (updated categories: Flights, Competition Photos, Events, General)
-// - Team photos and award images have been added into relevant categories.
+// 4. GALLERY PAGE 
 // =================================================================================
 export const GALLERY_CATEGORIES = [
   {
@@ -331,7 +330,7 @@ export const GALLERY_CATEGORIES = [
     ]
   },
   {
-    name: "Meet the Team.",
+    name: "Meet the Team",
     coverImage: `${PUBLIC}/images/all/Team-India.jpg`,
     photos: [
       `${PUBLIC}/images/all/Indra-Team.jpeg`,
