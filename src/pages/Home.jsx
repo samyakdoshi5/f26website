@@ -216,7 +216,7 @@ const Home = () => {
           <iframe
             ref={iframeRef}
             title="showreel"
-            src="https://player.vimeo.com/video/1138982710?background=1&autoplay=1&muted=1&loop=1&autopause=0&player_id=0"
+            src="https://player.vimeo.com/video/1221524052?background=1&autoplay=1&muted=1&loop=1&autopause=0&player_id=0"
             frameBorder="0"
             allow="autoplay; encrypted-media; picture-in-picture"
             allowFullScreen
@@ -258,7 +258,7 @@ const Home = () => {
             className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight"
           >
             {HERO_DATA.titleStart}{' '}
-            <span className="bg-gradient-to-r from-brand-highlight to-tech-accent bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-tech-accent to-brand-highlight bg-clip-text text-transparent">
               {HERO_DATA.titleHighlight}
             </span>
           </motion.h1>
@@ -349,7 +349,7 @@ const Home = () => {
         </div>
 
         <Reveal delay={0.15} duration={0.5}>
-          <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-8 max-w-8xl mx-auto px-6">
+          <div className="flex flex-wrap justify-center items-center gap-x-5 gap-y-5 max-w-8xl mx-auto px-6">
             {SPONSORS_LOGOS.map((sponsor, i) => (
               <Reveal key={i} delay={0.05} duration={0.5} once={false}>
                 <a href={sponsor.websiteUrl} target="_blank" rel="noopener noreferrer" className="block transform transition hover:scale-105">

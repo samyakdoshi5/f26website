@@ -13,7 +13,7 @@ export const TEAM_INFO = {
   gif: `${PUBLIC}/images/loading.gif`,
   shortName: "Falcons",
   email: "assailingfalcons@vit.ac.in",
-  phone: "+91 98250 55701",
+  phone: "+91 87927 29316",
   address: `Vellore Institute of Technology
 Vellore, Tamil Nadu, India
 632014`,
@@ -28,9 +28,8 @@ Vellore, Tamil Nadu, India
 // 2. HOME PAGE DATA
 // =================================================================================
 export const HERO_DATA = {
-  backgroundImage: "https://vimeo.com/embed/1138938605",
-  posterImage: `${PUBLIC}/images/Hero-Image.jpg`,
-  titleStart: "PooSHING THE LIMITS OF",
+  posterImage: `${PUBLIC}/images/Hero-Image.jpeg`,
+  titleStart: "PUSHING THE LIMITS OF",
   titleHighlight: "FLIGHT",
   subtitle: "Designing, building, and flying the next generation of UAVs.",
   brochureLink: `${PUBLIC}/AssailingFalcons25-Brochure.pdf`,
@@ -46,38 +45,34 @@ export const ABOUT_DATA = {
 };
 
 export const DEPARTMENTS_DATA = [
-  { icon: PenTool, title: "Design", desc: "The Design Department forms the foundation of every Falcons aircraft, transforming ideas into efficient and mission-ready aerial systems. Through conceptual design, aerodynamic analysis, MDO, CFD simulations, airfoil optimization, and performance evaluation, the team develops aircraft that balance innovation, efficiency, and reliability. By exploring and refining both VTOL and fixed-wing configurations, Design ensures every platform is engineered with precision, purpose, and a commitment to excellence." },
-  { icon: Plane, title: "Structures", desc: "The Structures Department is where engineering meets craftsmanship. Transforming concepts into flight-worthy airframes, the team carefully shapes every component through design, analysis, and fabrication. Blending precision with creativity, they work across materials and manufacturing techniques to create structures that are lightweight, resilient, and elegantly efficient. Every airframe reflects a commitment to strength, reliability, and the pursuit of excellence that carries Falcons UAVs from imagination to flight." },
-  { icon: Cpu, title: "Avionics", desc: "The Avionics Department integrates the intelligence behind every Falcons aircraft. Connecting sensors, payloads, power systems, and flight-control architecture, the team ensures every subsystem works as one. From autonomy and mission execution to system validation and optimization, Avionics enables aircraft to operate with precision, reliability, and confidence in demanding environments." },
-  { icon: BarChart, title: "Management", desc: "The Management Department connects people, opportunities, and ideas to propel the Falcons forward. Through strategic partnerships, sponsorships, outreach, and seamless coordination, the team builds the framework that enables innovation to flourish. Their efforts extend beyond administration, shaping the team's identity, strengthening its reach, and driving its pursuit of excellence." }
+  { icon: PenTool, title: "Design", desc: "The Design Department forms the foundation of every Falcons aircraft, transforming ideas into efficient and mission-ready aerial systems. Through conceptual design, aerodynamic analysis, MDO, CFD simulations, airfoil optimization, and performance evaluation, the team develops aircraft that balance innovation, efficiency, and reliability. By exploring and refining fixed-wing VTOL configurations, Design ensures every platform is engineered with precision, purpose, and a commitment to delivering high-performance solutions for every mission." },
+  { icon: Plane, title: "Structures", desc: "The Structures Department transforms design concepts into flight-worthy RC aircraft through precision CAD modelling, structural analysis, and weight optimization. The team develops lightweight, efficient, and reliable airframes by combining analytical calculations, simulations, and engineering validation. Beyond design, the department oversees aircraft manufacturing and assembly, including in-house composite fabrication, and conducts physical testing to validate structural integrity and ensure safe, reliable operation under real-world conditions." },
+  { icon: Cpu, title: "Avionics", desc: "The Avionics Department integrates sensors, payloads, power systems, and flight-control architecture to enable intelligent and autonomous operation. The team develops and validates systems for autonomous flight, payload operation, navigation, and real-time decision-making. The department also developed AVGP, a vision-guided autonomous rover that navigates through visual inputs and responds to its surroundings, demonstrating the team’s expertise in computer vision, embedded systems, and autonomous technologies." },
+  { icon: BarChart, title: "Management", desc: "The Management Department connects people, opportunities, and ideas to drive Falcons forward. Through strategic partnerships, sponsorships, outreach, and seamless coordination, the team creates the foundation that enables innovation to thrive. Their efforts extend beyond administration, shaping the team’s identity, expanding its impact, and strengthening its pursuit of excellence. By fostering collaboration, building meaningful relationships, and aligning vision with execution, Management ensures every Falcons initiative reaches its fullest potential." }
 ];
 
 export const STATS_DATA = [
   { label: "Founding Year", value: "2010" },
   { label: "Aircraft Built", value: "20+" },
-  {
-    label: `World Rank`, value: "#3"
-  },
-  { label: "India Rank", value: "#1" }
+  { label: `Asia Rank`, value: "#1"},
+  { label: "World Rank", value: "#3" }
 ];
 
 // src/data.js (SPONSORS_LOGOS)
 export const SPONSORS_LOGOS = [
-  { logoUrl: `${PUBLIC}/images/sponsors/apc.png`, websiteUrl: "https://www.apcprop.com/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/chaservo.png`, websiteUrl: "https://www.chaservo.com/en" },
-  { logoUrl: `${PUBLIC}/images/sponsors/electo.png`, websiteUrl: "https://www.electo.co.in/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/emax.png`, websiteUrl: "https://emax-usa.com/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/gemfan.png`, websiteUrl: "https://www.gfprops.com/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/hitec.png`, websiteUrl: "https://hitecrcd.com/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/holybro.png`, websiteUrl: "https://holybro.com/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/iflight.png`, websiteUrl: "https://www.iflight.com/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/savox.png`, websiteUrl: "https://www.savoxusa.com/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/simnet.png`, websiteUrl: "https://www.simnet.aero/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/simscale.png`, websiteUrl: "https://www.simscale.com/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/aeroatoms.png`, websiteUrl: "https://aeroatoms.com/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/ansys.png`, websiteUrl: "https://ansys.synopsys.com/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/cadfem.png`, websiteUrl: "https://www.cadfem.net/en/home.html" },
+  { logoUrl: `${PUBLIC}/images/sponsors/drkstore.png`, websiteUrl: "https://www.drkstore.in/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/emax.png`, websiteUrl: "https://www.emax-usa.com/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/gemfan.png`, websiteUrl: "https://www.gemfanhobby.com/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/gensace.png`, websiteUrl: "https://genstattu.com/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/kenesto.png`, websiteUrl: "https://www.kenesto.com/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/landmark.png`, websiteUrl: "https://landmarklanding.com/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/onshape.png`, websiteUrl: "https://www.onshape.com/en/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/protocase.png`, websiteUrl: "https://www.protocase.com/" },
   { logoUrl: `${PUBLIC}/images/sponsors/solidworks.png`, websiteUrl: "https://www.solidworks.com/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/uavgarage.png`, websiteUrl: "https://uavgarage.com/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/whoopmasters.png`, websiteUrl: "https://whoopmastersindia.com/" },
-  { logoUrl: `${PUBLIC}/images/sponsors/zerodrag.png`, websiteUrl: "https://zerodrag.in/" },
+  { logoUrl: `${PUBLIC}/images/sponsors/tattu.png`, websiteUrl: "https://www.tattuworld.com/" },
 ];
 
 // =================================================================================

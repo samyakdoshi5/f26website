@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { TEAM_INFO } from "../data";
-import ThemePicker from "./ThemePicker";
 
 const NAV_LINKS = [
   { name: "Home", path: "/" },
@@ -131,12 +130,10 @@ const Header = () => {
               </div>
             );
           })}
-          <ThemePicker />
         </nav>
 
         {/* Mobile Menu Button (in header wrapper so it stays above backdrop) */}
         <div className="md:hidden flex items-center gap-1">
-          <ThemePicker />
           <button
             className="text-white hover:text-tech-gold transition p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-tech-gold"
             onClick={() => setIsOpen((s) => !s)}

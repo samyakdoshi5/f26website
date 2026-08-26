@@ -96,7 +96,7 @@ const ContactUs = () => {
         {/* RIGHT: CONTACT FORM */}
         <div className="lg:w-2/3">
           <form 
-            action="https://formspree.io/f/mvglqqne"
+            action="https://formspree.io/f/moeqaqpd"
             method="POST"
             className="space-y-6"
           >
