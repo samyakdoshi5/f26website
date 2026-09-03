@@ -89,6 +89,8 @@ export const AIRCRAFT_DATA = [
     coverImage: `${PUBLIC}/images/all/Indra-Hero.jpeg`,
     description: "INDRA is an electric VTOL tricopter developed for precision payload delivery and retrieval missions. Combining vertical mobility with efficient forward flight, the platform delivers exceptional operational flexibility across a wide range of mission environments. Its lightweight airframe, optimized propulsion system, and integrated payload mechanism are engineered to maximize efficiency, reliability, and performance. Proven through extensive testing and iterative refinement under varied flight conditions, INDRA reflects a design philosophy centered on robustness, adaptability, and mission success.",
     gallery: [
+      "https://www.youtube.com/watch?v=Jn-6389OB2Y",
+      "https://www.youtube.com/watch?v=g9xQ22439-I",
       `${PUBLIC}/images/all/Indra-1.jpg`,
       `${PUBLIC}/images/all/Indra-2.jpg`,
       `${PUBLIC}/images/all/Indra-4.jpg`,
@@ -278,7 +280,7 @@ export const AIRCRAFT_DATA = [
 // =================================================================================
 export const GALLERY_CATEGORIES = [
   {
-    name: "Up in Flight!",
+    name: "Up in Flight",
     coverImage: `${PUBLIC}/images/all/Indra-Flight4.png`,
     photos: [
       `${PUBLIC}/images/all/Indra-Flight1.jpg`,
@@ -352,6 +354,8 @@ export const GALLERY_CATEGORIES = [
     name: "Watch Us Fly",
     coverImage: `${PUBLIC}/images/all/General2.jpg`,
     photos: [
+      "https://www.youtube.com/watch?v=Jn-6389OB2Y",
+      "https://www.youtube.com/watch?v=g9xQ22439-I",
       "https://www.youtube.com/watch?v=NPTmgh9uSSY",
       "https://www.youtube.com/watch?v=oS2buLNerUo",
       "https://www.youtube.com/watch?v=61DIDIHwqJc",

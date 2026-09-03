@@ -45,7 +45,7 @@ export default function SponsorUs() {
                                 <a
                                     href={brochureUrl}
                                     download
-                                    className="inline-flex items-center gap-2 bg-gradient-to-r from-tech-accent to-brand-highlight py-3 px-6 rounded-full font-semibold shadow-lg hover:scale-[1.02] transition-transform"
+                                    className="inline-flex items-center gap-2 bg-gradient-to-r from-tech-accent to-tech-accent py-3 px-6 rounded-full font-semibold shadow-lg hover:scale-[1.02] transition-transform"
                                 >
                                     <Download size={18} /> Brochure
                                 </a>
@@ -68,7 +68,7 @@ export default function SponsorUs() {
                                 </motion.div>
                                 <motion.div whileHover={{ y: -3 }} className="bg-card-gradient py-2 px-4 rounded-lg shadow">
                                     <div className="text-xs text-slate-300">Reach</div>
-                                    <div className="font-bold text-lg">Campus + National Events</div>
+                                    <div className="font-bold text-lg">Campus + International Events</div>
                                 </motion.div>
                             </div>
                         </div>
